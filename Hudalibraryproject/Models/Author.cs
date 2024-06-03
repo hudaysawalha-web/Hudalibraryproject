@@ -1,4 +1,6 @@
-﻿namespace Hudalibraryproject.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Hudalibraryproject.Models
 {
     public class Author
     {

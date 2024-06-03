@@ -70,6 +70,9 @@ namespace Hudalibraryproject.Controllers
             {
                 return NotFound();
             }
+          category.Name= categoryVM.Name;
+            category.UpdatedOn = DateTime.Now;
+
         category.Name = categoryVM.Name;
             context.SaveChanges();
 
@@ -85,6 +88,7 @@ namespace Hudalibraryproject.Controllers
                 return NotFound();
 
             }
+
             var veiwModedl = new CategoryVM
             {
                 Id = id,
@@ -93,6 +97,18 @@ namespace Hudalibraryproject.Controllers
                 UpdatedOn = category.UpdatedOn,
             };
             return View(veiwModedl);
+        }
+        public IActionResult Delete(int id)
+        {
+            var category = context.Categories.Find();
+            if (category is null)
+            {
+                return NotFound();
+
+            }
+            context.Categories.Remove(category);
+            context.SaveChanges();
+            return RedirectToAction("Index");
         }
 
     }

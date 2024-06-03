@@ -1,7 +1,7 @@
-﻿using Hudalibraryproject.Models;
+﻿
 using System.ComponentModel.DataAnnotations;
 
-namespace BookStore.Models
+namespace Hudalibraryproject.Models
 {
 	public class Book
 	{

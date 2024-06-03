@@ -1,13 +1,14 @@
-﻿using BookStore.Data;
-using BookStore.Models;
-using BookStore.ViewModel;
+﻿using BookStore.ViewModel;
 using Hudalibraryproject.Data;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Hudalibraryproject.Models;
+using Hudalibraryproject.ViewModel;
+using Microsoft.AspNetCore.Mvc;
 
-namespace BookStore.Controllers
+namespace Hudalibraryproject.Controllers
 {
     public class BookController : Controller
     {
