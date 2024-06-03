@@ -1,5 +1,6 @@
 ﻿using Hudalibraryproject.Data;
 using Hudalibraryproject.Models;
+using Hudalibraryproject.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,17 +9,38 @@ namespace Hudalibraryproject.Controllers
 {
     public class AuthorsController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly ApplicationDbContext context;
 
         public AuthorsController(ApplicationDbContext context)
         {
-            _context = context;
+            this.context = context;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Edit(int id)
+        public IActionResult Index()
         {
-            var author = await _context.Authors.FindAsync(id);
+            var authors = context.Authors.ToList();
+            var authorsVm = new List<AuthorVM>();
+
+            foreach( var author in authors)
+            {
+
+                var authorVm = new AuthorVM()
+                {
+                    Id = author.Id,
+                    Name = author.Name,
+                    CreatedON = DateTime.Now,
+                    UpdatedOn = DateTime.Now,
+                };
+                authorsVm.Add(authorVm);
+            }
+            return View(authorsVm);
+        }
+
+        
+        [HttpGet]
+        public IActionResult Create(int id)
+        {
+            var author =  context.Authors.FindAsync(id);
             if (author == null)
             {
                 return NotFound();
@@ -27,7 +49,7 @@ namespace Hudalibraryproject.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,CreatedAt")] Author author)
+        public IActionResult Edit(int id, [Bind("Id,Name,CreatedAt")] Author author)
         {
             if (id != author.Id)
             {
@@ -38,8 +60,8 @@ namespace Hudalibraryproject.Controllers
             {
                 try
                 {
-                    _context.Update(author);
-                    await _context.SaveChangesAsync();
+                    context.Update(author);
+                    await context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -59,7 +81,7 @@ namespace Hudalibraryproject.Controllers
 
         private bool AuthorExists(int id)
         {
-            return _context.Authors.Any(e => e.Id == id);
+            return context.Authors.Any(e => e.Id == id);
         }
     }
 

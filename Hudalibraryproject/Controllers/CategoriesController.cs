@@ -108,8 +108,15 @@ namespace Hudalibraryproject.Controllers
             }
             context.Categories.Remove(category);
             context.SaveChanges();
-            return RedirectToAction("Index");
+            return Ok();
         }
+        public IActionResult CheckName(CategoryVM categoryVM)
+        {
+            var isExsits = context.Categories.Any(Category => Category.Name == categoryVM.Name);
+            return Json(!isExsits);
+        }
+
+
 
     }
 }
