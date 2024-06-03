@@ -16,7 +16,7 @@ namespace Hudalibraryproject.Models
 		public string? ImageUrl { get; set; }
 		public DateTime CreatedOn { get; set; } = DateTime.Now;
 		public DateTime? UpdatedOn { get; set; } = DateTime.Now;
-		public List<BookCategory> Categories { get; set; } = new List<BookCategory> { };
+		public List<BookCategory> Categories { get; set; } = new List<BookCategory> ();
 	}
 
 }

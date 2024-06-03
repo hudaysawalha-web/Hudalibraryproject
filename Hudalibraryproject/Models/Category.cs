@@ -12,7 +12,8 @@ namespace Hudalibraryproject.Models
         public DateTime CreatedON { get; set; }= DateTime.Now;
         public DateTime UpdatedOn {  get; set; }= DateTime.Now;
 
-        
+        public List<BookCategory> Books { get; set; } = new List<BookCategory> ();
+
 
     }
 }

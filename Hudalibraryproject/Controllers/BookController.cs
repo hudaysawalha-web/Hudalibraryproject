@@ -1,5 +1,4 @@
-﻿using BookStore.ViewModel;
-using Hudalibraryproject.Data;
+﻿using Hudalibraryproject.Data;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
