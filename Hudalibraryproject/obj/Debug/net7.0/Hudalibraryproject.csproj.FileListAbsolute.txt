@@ -83,3 +83,4 @@ C:\Users\AB\source\repos\Bakend web course projects\Hudalibraryproject\Hudalibra
 C:\Users\AB\source\repos\Bakend web course projects\Hudalibraryproject\Hudalibraryproject\obj\Debug\net7.0\Hudalibraryproject.pdb
 C:\Users\AB\source\repos\Bakend web course projects\Hudalibraryproject\Hudalibraryproject\obj\Debug\net7.0\Hudalibraryproject.genruntimeconfig.cache
 C:\Users\AB\source\repos\Bakend web course projects\Hudalibraryproject\Hudalibraryproject\obj\Debug\net7.0\ref\Hudalibraryproject.dll
+C:\Users\AB\source\repos\Bakend web course projects\Hudalibraryproject\Hudalibraryproject\obj\Debug\net7.0\Hudalibraryproject.sourcelink.json
