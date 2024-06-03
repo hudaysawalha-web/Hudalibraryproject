@@ -4,7 +4,8 @@
 Categories
 }
 @section SubTitle {
-Create
+
+@(Model.Id== null ? "Create":"Edit")
 }
 
 <form asp-controller="Categories">
@@ -17,7 +18,7 @@ Create
         </div>
     </div>
         <div class="card-footer">
-            <button type="subimt" class="btn btn-primary">Add</button>
+        <button type="subimt" class="btn btn-primary">@(Model.Id == null ? "Add" : "Update")</button>
         </div>
    
  </form>

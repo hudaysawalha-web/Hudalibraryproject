@@ -1,0 +1,66 @@
+﻿@using BookStore.ViewModel;
+@model List<BookVM>
+@section Title {
+book
+}
+@section subTitle {
+leeen
+}
+@section Buttons {
+
+	<div class="card-body">
+		<a asp-controller="Books" asp-action="Create" class="btn-primary justify-content-between align-items-center">Create</a>
+	</div>
+}
+
+@if (!Model.Any())
+{
+
+	<h2>failed no data</h2>
+
+}
+
+else
+{
+	<div class="card-body">
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th style="width: 10px">#</th>
+					<th>Title</th>
+					<th>Author</th>
+					<th>Publisher</th>
+					<th>PublishDate</th>
+					<th>img</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td>@item.Id</td>
+						<td>@item.Title</td>
+						<td>Author</td>
+						<td>Publisher</td>
+						<td>PublishDate</td>
+						<td><img src="~/img/Book/@item.ImageUrl" width="50px" />img</td>
+						<td>@string.Join(" , ", item.Categories)</td>
+						<td>
+							<a asp-controller="Books" asp-action="Edit" asp-route-id="@item.Id"> Edit </a>
+
+							<a asp-controller="Books" asp-action="Details" asp-route-id="@item.Id"> Details </a>
+							<a asp-controller="Books" asp-action="Delete" asp-route-id="@item.Id"> Delete </a>
+
+						</td>
+					</tr>
+				}
+
+
+			</tbody>
+
+
+		</table>
+
+	</div>
+}

@@ -1,0 +1,38 @@
+﻿@using Hudalibraryproject.ViewModel
+@model CategoryVM
+@section Title {
+categories
+}
+@section SubTitle {
+Details
+}
+
+
+    <div class="card-body">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th style="width: 10px">#</th>
+                    <th>Name</th>
+                    <th>Created At</th>
+                    <th>Updated At</th>
+                </tr>
+            </thead>
+            <tbody>
+
+              
+                    <tr>
+
+                    
+                         <td>@Model.Name</td>
+                         <td>@item.CreatedOn</td>
+                         <td>@item.UpdatedOn</td>
+
+                        <td>
+                            <a asp-controller="Categories" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                        </td>
+                    </tr>
+              
+            </tbody>
+        </table>
+    </div>

@@ -3,28 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\hudalibraryproject\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|c:\\users\\ab\\source\\repos\\bakend web course projects\\hudalibraryproject\\hudalibraryproject\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\hudalibraryproject\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|c:\\users\\ab\\source\\repos\\bakend web course projects\\hudalibraryproject\\hudalibraryproject\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|c:\\users\\ab\\source\\repos\\bakend web course projects\\hudalibraryproject\\hudalibraryproject\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\hudalibraryproject\\viewmodel\\categoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\viewmodel\\categoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\hudalibraryproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\hudalibraryproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\hudalibraryproject\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\hudalibraryproject\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|c:\\users\\ab\\source\\repos\\bakend web course projects\\hudalibraryproject\\hudalibraryproject\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|c:\\users\\ab\\source\\repos\\bakend web course projects\\hudalibraryproject\\hudalibraryproject\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|c:\\users\\ab\\source\\repos\\bakend web course projects\\hudalibraryproject\\hudalibraryproject\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|c:\\users\\ab\\source\\repos\\bakend web course projects\\hudalibraryproject\\hudalibraryproject\\viewmodel\\bookformmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\viewmodel\\bookformmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|c:\\users\\ab\\source\\repos\\bakend web course projects\\hudalibraryproject\\hudalibraryproject\\viewmodel\\bookmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\viewmodel\\bookmv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|c:\\users\\ab\\source\\repos\\bakend web course projects\\hudalibraryproject\\hudalibraryproject\\views\\books\\createbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\views\\books\\createbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|c:\\users\\ab\\source\\repos\\bakend web course projects\\hudalibraryproject\\hudalibraryproject\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|c:\\users\\ab\\source\\repos\\bakend web course projects\\hudalibraryproject\\hudalibraryproject\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|c:\\users\\ab\\source\\repos\\bakend web course projects\\hudalibraryproject\\hudalibraryproject\\views\\authors\\createuthor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\views\\authors\\createuthor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|c:\\users\\ab\\source\\repos\\bakend web course projects\\hudalibraryproject\\hudalibraryproject\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|c:\\users\\ab\\source\\repos\\bakend web course projects\\hudalibraryproject\\hudalibraryproject\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\hudalibraryproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|solutionrelative:hudalibraryproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05243457-395D-42C4-990C-ED466DC4FB86}|Hudalibraryproject\\Hudalibraryproject.csproj|C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\hudalibraryproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,15 +114,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryVM.cs",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\ViewModel\\CategoryVM.cs",
+              "RelativeDocumentMoniker": "Hudalibraryproject\\ViewModel\\CategoryVM.cs",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\ViewModel\\CategoryVM.cs",
+              "RelativeToolTip": "Hudalibraryproject\\ViewModel\\CategoryVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T13:37:43.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Categories\\Create.cshtml",
-              "RelativeDocumentMoniker": "Hudalibraryproject\\Views\\Categories\\Create.cshtml",
-              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Categories\\Create.cshtml",
-              "RelativeToolTip": "Hudalibraryproject\\Views\\Categories\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "Hudalibraryproject\\Views\\Categories\\Details.cshtml",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "Hudalibraryproject\\Views\\Categories\\Details.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-03T13:05:29.294Z",
+              "WhenOpened": "2024-06-03T15:36:30.06Z",
               "EditorCaption": ""
             },
             {
@@ -85,48 +146,191 @@
               "RelativeDocumentMoniker": "Hudalibraryproject\\Controllers\\CategoriesController.cs",
               "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "Hudalibraryproject\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAswEIAAAAAAAAA",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAwF0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T13:03:43.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Hudalibraryproject\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Models\\Category.cs",
+              "RelativeToolTip": "Hudalibraryproject\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T09:35:32.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "Hudalibraryproject\\Views\\Categories\\Index.cshtml",
               "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Categories\\Index.cshtml",
               "RelativeToolTip": "Hudalibraryproject\\Views\\Categories\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACgAAAAdAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-03T11:51:43.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryVM.cs",
-              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\ViewModel\\CategoryVM.cs",
-              "RelativeDocumentMoniker": "Hudalibraryproject\\ViewModel\\CategoryVM.cs",
-              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\ViewModel\\CategoryVM.cs",
-              "RelativeToolTip": "Hudalibraryproject\\ViewModel\\CategoryVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T13:37:43.281Z",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "Hudalibraryproject\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "Hudalibraryproject\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T13:05:29.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Hudalibraryproject\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Hudalibraryproject\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAOcAAAAAAAAAAAAAAPwAAAAqAAAA",
+              "DocumentIndex": 9,
+              "Title": "BookFormMv.cs",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\ViewModel\\BookFormMv.cs",
+              "RelativeDocumentMoniker": "Hudalibraryproject\\ViewModel\\BookFormMv.cs",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\ViewModel\\BookFormMv.cs",
+              "RelativeToolTip": "Hudalibraryproject\\ViewModel\\BookFormMv.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T15:28:52.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookMv.cs",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\ViewModel\\BookMv.cs",
+              "RelativeDocumentMoniker": "Hudalibraryproject\\ViewModel\\BookMv.cs",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\ViewModel\\BookMv.cs",
+              "RelativeToolTip": "Hudalibraryproject\\ViewModel\\BookMv.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T15:28:24.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Hudalibraryproject\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Models\\Book.cs",
+              "RelativeToolTip": "Hudalibraryproject\\Models\\Book.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAywBUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T15:26:59.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Hudalibraryproject\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "Hudalibraryproject\\Views\\Books\\Index.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAAEEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-03T08:09:52.817Z",
+              "WhenOpened": "2024-06-03T15:25:23.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Hudalibraryproject\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Hudalibraryproject\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T15:24:20.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateBook.cshtml",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Books\\CreateBook.cshtml",
+              "RelativeDocumentMoniker": "Hudalibraryproject\\Views\\Books\\CreateBook.cshtml",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Books\\CreateBook.cshtml",
+              "RelativeToolTip": "Hudalibraryproject\\Views\\Books\\CreateBook.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T15:25:40.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Index.cshtml",
+              "RelativeDocumentMoniker": "Hudalibraryproject\\Views\\Index.cshtml",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Index.cshtml",
+              "RelativeToolTip": "Hudalibraryproject\\Views\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T15:24:51.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "Hudalibraryproject\\Controllers\\AuthorsController.cs",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "Hudalibraryproject\\Controllers\\AuthorsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T15:05:21.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Createuthor.cshtml",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Authors\\Createuthor.cshtml",
+              "RelativeDocumentMoniker": "Hudalibraryproject\\Views\\Authors\\Createuthor.cshtml",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Authors\\Createuthor.cshtml",
+              "RelativeToolTip": "Hudalibraryproject\\Views\\Authors\\Createuthor.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T15:07:53.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Authors\\Index.cshtml",
+              "RelativeDocumentMoniker": "Hudalibraryproject\\Views\\Authors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Authors\\Index.cshtml",
+              "RelativeToolTip": "Hudalibraryproject\\Views\\Authors\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T15:07:25.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "Hudalibraryproject\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Models\\Author.cs",
+              "RelativeToolTip": "Hudalibraryproject\\Models\\Author.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T15:06:27.407Z",
               "EditorCaption": ""
             },
             {
@@ -135,19 +339,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Hudalibraryproject\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Models\\Category.cs",
-              "RelativeToolTip": "Hudalibraryproject\\Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T09:35:32.711Z"
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Hudalibraryproject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Hudalibraryproject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAOcAAAAAAAAAAAAAAPwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-03T08:09:52.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Hudalibraryproject\\Data\\ApplicationDbContext.cs",
@@ -155,11 +359,12 @@
               "RelativeToolTip": "Hudalibraryproject\\Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T07:06:56.396Z"
+              "WhenOpened": "2024-06-03T07:06:56.396Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Hudalibraryproject\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
@@ -171,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "Hudalibraryproject",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Hudalibraryproject.csproj",
               "RelativeDocumentMoniker": "Hudalibraryproject\\Hudalibraryproject.csproj",
@@ -183,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "main.css",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\wwwroot\\Dashboard\\dist\\css\\main.css",
               "RelativeDocumentMoniker": "Hudalibraryproject\\wwwroot\\Dashboard\\dist\\css\\main.css",
@@ -195,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
               "Title": "20240603094044_CreateCategory.cs",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\Data\\Migrations\\20240603094044_CreateCategory.cs",
               "RelativeDocumentMoniker": "Hudalibraryproject\\Data\\Migrations\\20240603094044_CreateCategory.cs",
@@ -207,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\appsettings.json",
               "RelativeDocumentMoniker": "Hudalibraryproject\\appsettings.json",

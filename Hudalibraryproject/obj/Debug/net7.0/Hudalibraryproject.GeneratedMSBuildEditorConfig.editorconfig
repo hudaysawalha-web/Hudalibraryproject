@@ -22,8 +22,28 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/AB/source/repos/Bakend web course projects/Hudalibraryproject/Hudalibraryproject/Views/Authors/Createuthor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xDcmVhdGV1dGhvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AB/source/repos/Bakend web course projects/Hudalibraryproject/Hudalibraryproject/Views/Authors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AB/source/repos/Bakend web course projects/Hudalibraryproject/Hudalibraryproject/Views/Books/CreateBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcQ3JlYXRlQm9vay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AB/source/repos/Bakend web course projects/Hudalibraryproject/Hudalibraryproject/Views/Books/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/AB/source/repos/Bakend web course projects/Hudalibraryproject/Hudalibraryproject/Views/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AB/source/repos/Bakend web course projects/Hudalibraryproject/Hudalibraryproject/Views/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/AB/source/repos/Bakend web course projects/Hudalibraryproject/Hudalibraryproject/Views/Categories/Index.cshtml]
@@ -36,6 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/AB/source/repos/Bakend web course projects/Hudalibraryproject/Hudalibraryproject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AB/source/repos/Bakend web course projects/Hudalibraryproject/Hudalibraryproject/Views/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/AB/source/repos/Bakend web course projects/Hudalibraryproject/Hudalibraryproject/Views/Shared/Error.cshtml]

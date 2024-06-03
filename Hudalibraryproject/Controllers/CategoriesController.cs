@@ -43,14 +43,28 @@ namespace Hudalibraryproject.Controllers
             return RedirectToAction("Index");
         }
         [HttpGet]
-        public IActionResult Edit() {
+        public IActionResult Edit(int id) {
+         
+            var category = context.Categories.Find(id);
+            if(category == null)
+            {
+                return NotFound();
 
-            return View("Create");
+            }
+
+            var viewModel = new CategoryVM { 
+                Id=id,
+                Name = category.Name };
+
+            return View("Create", viewModel);
                 }
         
         [HttpPost]
       public IActionResult Edit(CategoryVM categoryVM) {
-
+            if (!ModelState.IsValid)
+            {
+                return View("Create", categoryVM);
+            }
             var category = context.Categories.Find(categoryVM.Id);
           if(category is null)
             {
@@ -63,7 +77,23 @@ namespace Hudalibraryproject.Controllers
 
         }
        
+        public IActionResult Details(int id)
+        {
+            var category = context.Categories.Find(id); 
+            if (category is null)
+            {
+                return NotFound();
 
+            }
+            var veiwModedl = new CategoryVM
+            {
+                Id = id,
+                Name = category.Name,
+                CreatedON = category.CreatedON,
+                UpdatedOn = category.UpdatedOn,
+            };
+            return View(veiwModedl);
+        }
 
     }
 }
