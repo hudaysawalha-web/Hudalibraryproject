@@ -125,6 +125,10 @@
       "PackagePath": "staticwebassets\\Dashboard\\dist\\css\\alt\\adminlte.plugins.min.css.map"
     },
     {
+      "Id": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\wwwroot\\Dashboard\\dist\\css\\main.css",
+      "PackagePath": "staticwebassets\\Dashboard\\dist\\css\\main.css"
+    },
+    {
       "Id": "C:\\Users\\AB\\source\\repos\\Bakend web course projects\\Hudalibraryproject\\Hudalibraryproject\\wwwroot\\Dashboard\\dist\\img\\AdminLTELogo.png",
       "PackagePath": "staticwebassets\\Dashboard\\dist\\img\\AdminLTELogo.png"
     },
