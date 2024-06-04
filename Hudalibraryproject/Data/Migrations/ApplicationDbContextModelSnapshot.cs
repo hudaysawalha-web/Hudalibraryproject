@@ -42,7 +42,7 @@ namespace Hudalibraryproject.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("CategoriesController");
+                    b.ToTable("CategoriesController", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

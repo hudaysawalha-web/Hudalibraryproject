@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Hudalibraryproject.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace Hudalibraryproject.ViewModel
 {
@@ -10,5 +11,7 @@ namespace Hudalibraryproject.ViewModel
         public string Name { get; set; } = null!;
         public DateTime CreatedON { get; set; } = DateTime.Now;
         public DateTime UpdatedOn { get; set; } = DateTime.Now;
+
+        public List<BookCategory> Books { get; set; }= new List<BookCategory>();
     }
 }

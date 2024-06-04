@@ -18,73 +18,109 @@ namespace Hudalibraryproject.Controllers
 
         public IActionResult Index()
         {
-            var authors = context.Authors.ToList();
-            var authorsVm = new List<AuthorVM>();
+          var authorsVm = context.Authors.Select(author => new AuthorVM
+		 {
+			 Id = author.Id,
+			 Name = author.Name,
+			 CreatedON = author.CreatedON,
+			 UpdatedOn = author.UpdatedOn,
+		 }
+		 )
+		 .ToList();
 
-            foreach( var author in authors)
-            {
+			return View(authorsVm);
+		}
+		[HttpGet]
 
-                var authorVm = new AuthorVM()
-                {
-                    Id = author.Id,
-                    Name = author.Name,
-                    CreatedON = DateTime.Now,
-                    UpdatedOn = DateTime.Now,
-                };
-                authorsVm.Add(authorVm);
-            }
-            return View(authorsVm);
-        }
+		public IActionResult Create()
+		{
+			return View();
+		}
+		[HttpPost]
+		public IActionResult Create(AuthorVM authorVM)
+		{
+			if (!ModelState.IsValid)
+			{
+				return View("Create", authorVM);
+			}
+			var author = new Author
+			{
+				Name = authorVM.Name
+			};
+			context.Authors.Add(author);
 
-        
-        [HttpGet]
-        public IActionResult Create(int id)
-        {
-            var author =  context.Authors.FindAsync(id);
-            if (author == null)
-            {
-                return NotFound();
-            }
-            return View(author);
-        }
+			context.SaveChanges();
+			return RedirectToAction("Index");
+		}
 
-        [HttpPost]
-        public IActionResult Edit(int id, [Bind("Id,Name,CreatedAt")] Author author)
-        {
-            if (id != author.Id)
-            {
-                return NotFound();
-            }
+		[HttpGet]
+		public IActionResult Edit(int id)
+		{
+			var author = context.Authors.Find(id);
+			if (author is null)
+			{
+				return NotFound();
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    context.Update(author);
-                    await context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!AuthorExists(author.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(author);
-        }
+			}
+			var viewModel = new AuthorVM
+			{
+				Id = id,
+				Name = author.Name
 
-        private bool AuthorExists(int id)
-        {
-            return context.Authors.Any(e => e.Id == id);
-        }
-    }
+			};
+			return View("Create", viewModel);
 
+		}
+		[HttpPost]
+		public IActionResult Edit(AuthorVM authorvm)
+		{
+
+			if (!ModelState.IsValid)
+			{
+				return View("Create", authorvm);
+			}
+			var author = context.Authors.Find(authorvm.Id);
+			if (author is null)
+			{
+				return NotFound();
+
+			}
+
+			author.Name = authorvm.Name;
+			author.UpdatedOn = DateTime.Now;
+			context.SaveChanges();
+			return RedirectToAction("Index");
+		}
+		public IActionResult Details(int id)
+		{
+
+			var author = context.Authors.Find(id);
+			if (author is null)
+			{
+				return NotFound();
+			}
+			var viewModel = new AuthorVM
+			{
+				Id = author.Id,
+				Name = author.Name,
+				CreatedON = author.CreatedON
+				,
+				UpdatedOn = author.UpdatedOn
+			};
+			return View(viewModel);
+		}
+		public IActionResult Delete(int id)
+		{
+			var author = context.Authors.Find(id);
+			context.Authors.Remove(author);
+			context.SaveChanges();
+			return RedirectToAction("Index");
+		}
+
+
+	}
 
 }
+
+
 

@@ -1,9 +1,12 @@
 ﻿@model List<Category>
-
- @section Title{categories} 
+@section Title{categories} 
 @section SubTitle {Show}
 @section Buttons {
-<a asp-controller="Categories" asp-action="Create" class="btn btn-primary">Create</a>}
+    <div class="card-body">
+        <a asp-controller="Categories" asp-action="Create" class="btn btn-primary">Create</a>
+        </div>
+}
+
 
             @if (!Model.Any())
             {

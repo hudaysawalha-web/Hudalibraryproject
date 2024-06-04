@@ -1,6 +1,7 @@
 ﻿using Hudalibraryproject.Data;
 using Hudalibraryproject.Models;
 using Hudalibraryproject.ViewModel;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hudalibraryproject.Controllers
@@ -18,7 +19,7 @@ namespace Hudalibraryproject.Controllers
         public IActionResult Index()
         {
             var categories = context.Categories.ToList();
-            return View(categories);
+           return View(categories);
         }
         [HttpGet]
         public IActionResult Create()
@@ -108,7 +109,7 @@ namespace Hudalibraryproject.Controllers
             }
             context.Categories.Remove(category);
             context.SaveChanges();
-            return Ok();
+            return RedirectToAction("Index");
         }
         public IActionResult CheckName(CategoryVM categoryVM)
         {

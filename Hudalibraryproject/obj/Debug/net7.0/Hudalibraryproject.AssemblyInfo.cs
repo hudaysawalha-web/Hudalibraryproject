@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hudalibraryproject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64b1afa0e89588fb95ae36507c4081f0c85e3ac5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6f5ab4607a563d17979c5024dbb7592e3020cd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hudalibraryproject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hudalibraryproject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

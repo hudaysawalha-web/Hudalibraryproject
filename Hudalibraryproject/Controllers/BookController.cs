@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Hudalibraryproject.Models;
 using Hudalibraryproject.ViewModel;
-using Microsoft.AspNetCore.Mvc;
+
 
 namespace Hudalibraryproject.Controllers
 {
@@ -39,12 +39,6 @@ namespace Hudalibraryproject.Controllers
             }).ToList();
 
             return View(bookVms);
-
-
-
-
-
-
 
 
         }
